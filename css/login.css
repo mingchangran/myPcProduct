@@ -1,0 +1,314 @@
+body, dd, dl, form, ol, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma,arial,sans-serif;
+    font-size: 12px;
+}
+img, input {
+    border: none;
+    vertical-align: middle;
+    outline: none;
+}
+
+ul, ol,li {
+    list-style: none;
+}
+img{
+    border: none;
+    display: block;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}
+html,body{
+    background: #fff;
+    color: #333;
+}
+.login-wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 27px 0 33px;
+    min-height: 580px;
+}
+.login-wrap .logo .logo-img{
+    background: url(.././images/upload_ie4gkmjvgvqtiytdg4zdambqgiyde_220x52.png) no-repeat;
+    display: inline-block;
+    width: 220px;
+    height: 52px;
+}
+.login-wrap .content{
+    padding-top: 40px;
+    height: 500px;
+}
+.login-wrap .content .logoBanner{
+    width: 400px;
+    padding: 20px 0 0 40px;
+    float: left;
+    display: inline;
+}
+.login-wrap .content .logoBanner a{
+    display: block;
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+}
+.login-wrap .content .logoBanner a img{
+    border: 0;
+    vertical-align: middle;
+}
+.login-wrap .content .logoBanner a.a-banner{
+    height: 300px;
+    margin-bottom: 10px;
+}
+.lg-left{
+    position: relative;
+    width: 322px;
+    float: right;
+    display: inline;
+    border: 1px solid #dcdcdc;
+    padding: 0 0 30px 38px;
+}
+.lg-left .toggle{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    height: 46px;
+    width: 46px;
+    background: url(.././images/upload_ie4tmnzrmuydmmbqhazdambqgqyde_46x46.png) no-repeat;
+}
+.wrapper{
+    position: relative;
+    height: 380px;
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+.wrapper .toggle-wrapper{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 53px;
+    width: 53px;
+    background: url(.././images/upload_ifrdcojvgftdmmbqhazdambqmeyde_52x53.png) no-repeat;
+}
+.wrapper .scan-login{
+    position: absolute;
+    height: 80px;
+    top: 30px;
+    width: 200px;
+    background: url(.././images/upload_ie4wiojrg43dombqhazdambqgqyde_190x37.png) no-repeat;
+}
+#qrcodeImg,.click{
+    position: absolute;
+    width: 200px;
+    left: 50%;
+}
+#qrcodeImg {
+    height: 200px;
+    font-size: 14px;
+    line-height: 200px;
+    margin-left: -122px;
+    top: 100px;
+}
+.wrapper .click{
+    font-size: 18px;
+    text-decoration: underline;
+    height: 30px;
+    bottom: 0;
+    font-family: Microsoft YaHei;
+    margin-left: -100px;
+    color: #333;
+}
+.lg-left .login-tab{
+    height: 70px;
+    margin-left: -38px;
+}
+.lg-left .login-tab .f1{
+    float: left;
+}
+.lg-left .login-tab .dl{
+    width: 50%;
+    border-bottom: 1px solid #ccc;
+}
+.lg-left .login-tab .dl a{
+    height: 43px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #aaa;
+}
+.lg-left .login-tab .f1 .f1-dl,.lg-left .login-tab .f1 .f1-dl1{
+    display: block;
+    width: 119px;
+    margin: 10px 30px 0;
+}
+.lg-left .login-tab .f1 .dl-a{
+    color: #333;
+    height: 41px;
+    border-bottom: 2px solid #ff4066;
+}
+.lg-left .formbox .error{
+    background: url(.././images/o613k_kqzfunswozbg2s2ugfjeg5sckzsew_16x16.png) 12px no-repeat #fffff8;
+    border: 1px solid #ffd797;
+    height: 30px;
+    line-height: 30px;
+    color: #ff5783;
+    width: 240px;
+    padding-left: 40px;
+    margin-bottom: 9px;
+    display: none;
+}
+.lgForm .lc,.lgForm .ln,.lgForm .lp{
+    position: relative;
+}
+.lgForm .li{
+    margin-bottom: 15px;
+}
+.pt,.st{
+    background: none;
+    border: 1px solid #ccc;
+    height: 28px;
+    padding: 0 6px;
+}
+.pt{
+    width: 269px;
+}
+.lr div{
+    float: left;
+}
+.lr span{
+    color: #999;
+    cursor: pointer;
+}
+.lr .fp{
+    float: left;
+    margin-left: 130px;
+    color: #959595;
+}
+.ll{
+    padding-top: 10px;
+}
+.ll .sub{
+    display: inline;
+    float: left;
+    border: none;
+    width: 285px;
+    height: 30px;
+    background: #ff4066;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+}
+.lrg{
+    padding-top: 20px;
+}
+.lrg a{
+    text-decoration: underline;
+    color: #959595;
+}
+.lrg .rt{
+    margin-left: 150px;
+}
+.otl{
+    margin-top: 30px;
+}
+.otl span{
+    color: #999;
+}
+.otl .otb{
+    padding-top: 6px;
+}
+.otl .otb a{
+    float: left;
+    margin-right: 4px;
+}
+.login-foot{
+    background: url(.././images/foot_kq2emwcwkrbf6qkugfjeg5sckzsew_16x16.png) repeat;
+    margin-top: 50px;
+}
+.lfc{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.linkL,.linkL li{
+    float: left;
+}
+.linkL{
+    margin-bottom: 30px;
+}
+.linkL li{
+    width: 130px;
+}
+.lfc h3{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.linkL li h3{
+    margin-bottom: 8px;
+}
+.linkL li a,.linkL li p{
+    display: block;
+    color: #666;
+    line-height: 24px;
+}
+.linkL li a:hover{
+    text-decoration: underline;
+}
+.code-box{
+    float: right;
+}
+.code-box .code{
+    background: url(.././images/o613k_kq2dgrswkrbhm6cugfjeg5sckzsew_180x76.png) no-repeat;
+    display: block;
+    width: 180px;
+    height: 76px;
+}
+.copyright{
+    clear: both;
+    padding-top: 0;
+    margin: 0;
+    text-align: center;
+    color: #999;
+    border-top: 1px dashed #dcdcdc;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
